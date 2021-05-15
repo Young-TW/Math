@@ -1,13 +1,14 @@
 import os
 
-m=a=1
 n=input('input ')
 n=int(n)
 
-for i in range(n):
-    a=a*m
-    m=m+1
+def factorial(n):
+    a=1
+    for i in range(n):
+        a=a*n
+        n=n-1
+    return a
 
-n=a
-print(n)
+print(factorial(n))
 os.system('pause')
