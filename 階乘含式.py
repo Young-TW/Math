@@ -1,16 +1,16 @@
 import os
-n=input('input ')
+n = None
 
 def factorial(n):
-    m=a=1
+    n=input('input ')
+    a=1
     n=int(n)
 
     for i in range(n):
-        a=a*(m)
-        m=m+1
+        a=a*n
+        n=n-1
 
-    n=a
-    print(n)
+    print(a)
     os.system('pause')
 
 factorial(n)
