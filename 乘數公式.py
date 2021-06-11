@@ -1,5 +1,13 @@
 import os
 
+def fact(x): 
+    m=a=1
+    for i in range(x):
+        a=a*(m)
+        m=m+1
+    return a
+    
+
 n=input('input n= ')
 k=input('input k= ')
 n=int(n)
@@ -7,29 +15,14 @@ k=int(k)
 
 b=n-k
 
-m=a=1
-for i in range(n):
-    a=a*(m)
-    m=m+1
-N=n
-
-m=a=1
-for i in range(k):
-    a=a*(m)
-    m=m+1
-K=k
-
-m=a=1
-for i in range(b):
-    a=a*(m)
-    m=m+1
-B=b
-
-p=float(p)
-c=float(c)
-
-p=N/K*B
-c=N/K
+fact(n)
+print(n)
+fact(k)
+print(k)
+fact(b)
+print(b)
+p=n/(k*b)
+c=n/k
 
 print(f'P:{p},C:{c}')
 
