@@ -5,7 +5,7 @@
 預計的目錄結構如下：
 
 ```
-math_repo/
+Math/
 │
 ├── Arithmetic_and_Basic_Math/
 │   ├── natural_numbers.rs
