@@ -1,17 +1,10 @@
-// 計算階乘的函式
-fn factorial(n: u64) -> u64 {
-    (1..=n).product() // Rust的語法糖，從1到n相乘
-}
+mod combination;
+mod factorial;
+mod permutation;
 
-// 計算排列數 P(n, r) 的函式
-fn permutation(n: u64, r: u64) -> u64 {
-    factorial(n) / factorial(n - r) // P(n, r) = n! / (n - r)!
-}
-
-// 計算組合數 C(n, r) 的函式
-fn combination(n: u64, r: u64) -> u64 {
-    factorial(n) / (factorial(r) * factorial(n - r)) // C(n, r) = n! / (r! * (n - r)!)
-}
+use combination::combination;
+use factorial::factorial;
+use permutation::permutation;
 
 fn main() {
     // 範例數據
