@@ -1,10 +1,14 @@
 mod combination;
+mod differentiate;
 mod factorial;
 mod permutation;
+mod polynomial;
 
 use combination::combination;
+use differentiate::differentiate;
 use factorial::factorial;
 use permutation::permutation;
+use polynomial::Polynomial;
 
 fn main() {
     // 範例數據
@@ -22,4 +26,9 @@ fn main() {
     // 顯示階乘結果
     let factorial_result = factorial(n);
     println!("{}! = {}", n, factorial_result);
+
+    // 微分
+    let poly = Polynomial::new(vec![2.0, 5.0, 3.0]); // 2 + 5x + 3x^2
+    let derivative = differentiate(&poly);
+    println!("The derivative of {:?} is: {:?}", poly, derivative);
 }
