@@ -1,14 +1,8 @@
-mod combination;
-mod differentiate;
-mod factorial;
-mod permutation;
-mod polynomial;
-
-use combination::combination;
-use differentiate::differentiate;
-use factorial::factorial;
-use permutation::permutation;
-use polynomial::Polynomial;
+use Math::combination::combination;
+use Math::differentiate::differentiate;
+use Math::factorial::factorial;
+use Math::permutation::permutation;
+use Math::polynomial::Polynomial;
 
 fn main() {
     // 範例數據
