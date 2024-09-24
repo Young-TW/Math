@@ -5,153 +5,153 @@
 預計的目錄結構如下：
 
 ```
-Math/
+Math/src/
 │
-├── Arithmetic_and_Basic_Math/
-│   ├── natural_numbers.rs
-│   ├── integers.rs
-│   ├── rational_and_real_numbers.rs
-│   ├── basic_operations.rs
-│   ├── fractions_and_percentages.rs
-│   └── prime_numbers_and_factorization.rs
+├── Arithmetic_and_Basic_Math/  算術與基礎數學
+│   ├── natural_numbers.rs  自然數
+│   ├── integers.rs  整數
+│   ├── rational_and_real_numbers.rs  有理數與實數
+│   ├── basic_operations.rs  基本運算
+│   ├── fractions_and_percentages.rs  分數與百分比
+│   └── prime_numbers_and_factorization.rs  質數與因式分解
 │
-├── Algebra/
-│   ├── Elementary_Algebra/
-│   │   ├── equations.rs
-│   │   ├── ratios.rs
-│   │   └── functions.rs
-│   ├── Advanced_Algebra/
-│   │   ├── polynomials.rs
-│   │   ├── matrices.rs
-│   │   └── vectors.rs
-│   ├── Abstract_Algebra/
-│   │   ├── group_theory.rs
-│   │   ├── ring_theory.rs
-│   │   └── field_theory.rs
-│   └── Linear_Algebra/
-│       ├── matrix_operations.rs
-│       ├── vector_spaces.rs
-│       └── eigenvalues_and_eigenvectors.rs
+├── Algebra/  代數
+│   ├── Elementary_Algebra/  初等代數
+│   │   ├── equations.rs  方程式
+│   │   ├── ratios.rs  比例
+│   │   └── functions.rs  函數
+│   ├── Advanced_Algebra/  高等代數
+│   │   ├── polynomials.rs  多項式
+│   │   ├── matrices.rs  矩陣
+│   │   └── vectors.rs  向量
+│   ├── Abstract_Algebra/  抽象代數
+│   │   ├── group_theory.rs  群論
+│   │   ├── ring_theory.rs  環論
+│   │   └── field_theory.rs  體論
+│   └── Linear_Algebra/  線性代數
+│       ├── matrix_operations.rs  矩陣運算
+│       ├── vector_spaces.rs  向量空間
+│       └── eigenvalues_and_eigenvectors.rs  特徵值與特徵向量
 │
-├── Geometry/
-│   ├── Euclidean_Geometry/
-│   │   ├── points_lines_planes.rs
-│   │   └── basic_shapes.rs
-│   ├── Analytic_Geometry/
-│   │   ├── coordinate_systems.rs
-│   │   ├── lines.rs
-│   │   ├── circles.rs
-│   │   └── conics.rs
-│   ├── Spatial_Geometry/
-│   │   ├── three_dimensional_shapes.rs
-│   │   └── volume_and_surface_area.rs
-│   └── Differential_Geometry/
-│       ├── curves.rs
-│       └── surfaces.rs
+├── Geometry/  幾何
+│   ├── Euclidean_Geometry/  歐幾里得幾何
+│   │   ├── points_lines_planes.rs  點、線、面
+│   │   └── basic_shapes.rs  基本圖形
+│   ├── Analytic_Geometry/  解析幾何
+│   │   ├── coordinate_systems.rs  座標系統
+│   │   ├── lines.rs  直線
+│   │   ├── circles.rs  圓
+│   │   └── conics.rs  圓錐曲線
+│   ├── Spatial_Geometry/  空間幾何
+│   │   ├── three_dimensional_shapes.rs  三維圖形
+│   │   └── volume_and_surface_area.rs  體積與表面積
+│   └── Differential_Geometry/  微分幾何
+│       ├── curves.rs  曲線
+│       └── surfaces.rs  曲面
 │
-├── Calculus/
-│   ├── Differentiation/
-│   │   ├── derivatives.rs
-│   │   └── tangent_lines.rs
-│   ├── Integration/
-│   │   ├── definite_integrals.rs
-│   │   └── indefinite_integrals.rs
-│   ├── Multivariable_Calculus/
-│   │   ├── partial_derivatives.rs
-│   │   └── multiple_integrals.rs
-│   └── Calculus_Applications/
-│       ├── rates_of_change.rs
-│       └── area_and_volume.rs
+├── Calculus/  微積分
+│   ├── Differentiation/  微分
+│   │   ├── derivatives.rs  導數
+│   │   └── tangent_lines.rs  切線
+│   ├── Integration/  積分
+│   │   ├── definite_integrals.rs  定積分
+│   │   └── indefinite_integrals.rs  不定積分
+│   ├── Multivariable_Calculus/  多變數微積分
+│   │   ├── partial_derivatives.rs  偏導數
+│   │   └── multiple_integrals.rs  多重積分
+│   └── Calculus_Applications/  微積分應用
+│       ├── rates_of_change.rs  變化率
+│       └── area_and_volume.rs  面積與體積
 │
-├── Statistics_and_Probability/
-│   ├── Descriptive_Statistics/
-│   │   ├── data_distributions.rs
-│   │   └── measures_of_central_tendency.rs
-│   ├── Probability_Theory/
-│   │   ├── random_variables.rs
-│   │   ├── probability_distributions.rs
-│   │   └── expectation_and_variance.rs
-│   └── Inferential_Statistics/
-│       ├── hypothesis_testing.rs
-│       └── regression_analysis.rs
+├── Statistics_and_Probability/  統計與機率
+│   ├── Descriptive_Statistics/  敘述統計
+│   │   ├── data_distributions.rs  數據分布
+│   │   └── measures_of_central_tendency.rs  集中趨勢測量
+│   ├── Probability_Theory/  機率論
+│   │   ├── random_variables.rs  隨機變數
+│   │   ├── probability_distributions.rs  機率分布
+│   │   └── expectation_and_variance.rs  期望與變異數
+│   └── Inferential_Statistics/  推論統計
+│       ├── hypothesis_testing.rs  假設檢定
+│       └── regression_analysis.rs  迴歸分析
 │
-├── Mathematical_Analysis/
-│   ├── Real_Analysis/
-│   │   ├── real_numbers_and_sequences.rs
-│   │   └── limits_of_functions.rs
-│   ├── Complex_Analysis/
-│   │   ├── complex_numbers.rs
-│   │   └── residue_theorem.rs
-│   ├── Fourier_Analysis/
-│   │   ├── fourier_series.rs
-│   │   └── fourier_transforms.rs
-│   └── Functional_Analysis/
-│       ├── l2_spaces.rs
-│       └── hilbert_spaces.rs
+├── Mathematical_Analysis/  數學分析
+│   ├── Real_Analysis/  實變分析
+│   │   ├── real_numbers_and_sequences.rs  實數與數列
+│   │   └── limits_of_functions.rs  函數極限
+│   ├── Complex_Analysis/  複變分析
+│   │   ├── complex_numbers.rs  複數
+│   │   └── residue_theorem.rs  留數定理
+│   ├── Fourier_Analysis/  傅立葉分析
+│   │   ├── fourier_series.rs  傅立葉級數
+│   │   └── fourier_transforms.rs  傅立葉變換
+│   └── Functional_Analysis/  泛函分析
+│       ├── l2_spaces.rs  L2空間
+│       └── hilbert_spaces.rs  希爾伯特空間
 │
-├── Discrete_Mathematics/
-│   ├── Combinatorics/
-│   │   ├── permutations_and_combinations.rs
-│   │   └── generating_functions.rs
-│   ├── Graph_Theory/
-│   │   ├── graphs_and_trees.rs
-│   │   └── paths_and_colorings.rs
-│   ├── Mathematical_Logic/
-│   │   ├── propositional_logic.rs
-│   │   └── predicate_logic.rs
-│   └── Automata_and_Computation/
-│       ├── finite_automata.rs
-│       └── turing_machines.rs
+├── Discrete_Mathematics/  離散數學
+│   ├── Combinatorics/  組合學
+│   │   ├── permutations_and_combinations.rs  排列與組合
+│   │   └── generating_functions.rs  生成函數
+│   ├── Graph_Theory/  圖論
+│   │   ├── graphs_and_trees.rs  圖與樹
+│   │   └── paths_and_colorings.rs  路徑與染色
+│   ├── Mathematical_Logic/  數理邏輯
+│   │   ├── propositional_logic.rs  命題邏輯
+│   │   └── predicate_logic.rs  謂詞邏輯
+│   └── Automata_and_Computation/  自動機與計算理論
+│       ├── finite_automata.rs  有限自動機
+│       └── turing_machines.rs  圖靈機
 │
-├── Differential_Equations/
-│   ├── Ordinary_Differential_Equations/
-│   │   ├── first_order_equations.rs
-│   │   └── second_order_equations.rs
-│   ├── Partial_Differential_Equations/
-│   │   ├── wave_equation.rs
-│   │   └── heat_equation.rs
-│   └── Dynamical_Systems/
-│       ├── stability_theory.rs
-│       └── chaos_theory.rs
+├── Differential_Equations/  微分方程
+│   ├── Ordinary_Differential_Equations/  常微分方程
+│   │   ├── first_order_equations.rs  一階方程
+│   │   └── second_order_equations.rs  二階方程
+│   ├── Partial_Differential_Equations/  偏微分方程
+│   │   ├── wave_equation.rs  波動方程
+│   │   └── heat_equation.rs  熱傳導方程
+│   └── Dynamical_Systems/  動力系統
+│       ├── stability_theory.rs  穩定性理論
+│       └── chaos_theory.rs  混沌理論
 │
-├── Number_Theory/
-│   ├── Elementary_Number_Theory/
-│   │   ├── primes_and_congruences.rs
-│   │   └── number_theory_functions.rs
-│   ├── Algebraic_Number_Theory/
-│   │   ├── number_fields.rs
-│   │   └── algebraic_integers.rs
-│   └── Analytic_Number_Theory/
-│       ├── prime_distribution.rs
-│       └── dirichlet_series.rs
+├── Number_Theory/  數論
+│   ├── Elementary_Number_Theory/  初等數論
+│   │   ├── primes_and_congruences.rs  質數與同餘
+│   │   └── number_theory_functions.rs  數論函數
+│   ├── Algebraic_Number_Theory/  代數數論
+│   │   ├── number_fields.rs  數域
+│   │   └── algebraic_integers.rs  代數整數
+│   └── Analytic_Number_Theory/  解析數論
+│       ├── prime_distribution.rs  質數分佈
+│       └── dirichlet_series.rs  狄利克雷級數
 │
-├── Numerical_Analysis/
-│   ├── Numerical_Differentiation_and_Integration/
-│   │   ├── numerical_differentiation.rs
-│   │   └── numerical_integration.rs
-│   ├── Numerical_Linear_Algebra/
-│   │   ├── solving_linear_systems.rs
-│   │   └── eigenvalue_problems.rs
-│   └── Numerical_Differential_Equations/
-│       ├── ode_methods.rs
-│       └── pde_methods.rs
+├── Numerical_Analysis/  數值分析
+│   ├── Numerical_Differentiation_and_Integration/  數值微分與積分
+│   │   ├── numerical_differentiation.rs  數值微分
+│   │   └── numerical_integration.rs  數值積分
+│   ├── Numerical_Linear_Algebra/  數值線性代數
+│   │   ├── solving_linear_systems.rs  線性系統求解
+│   │   └── eigenvalue_problems.rs  特徵值問題
+│   └── Numerical_Differential_Equations/  數值微分方程
+│       ├── ode_methods.rs  常微分方程法
+│       └── pde_methods.rs  偏微分方程法
 │
-├── Optimization/
-│   ├── Linear_Programming/
-│   │   ├── simplex_method.rs
-│   │   └── duality_theory.rs
-│   └── Nonlinear_Programming/
-│       ├── lagrange_multipliers.rs
-│       └── convex_optimization.rs
+├── Optimization/  最佳化
+│   ├── Linear_Programming/  線性規劃
+│   │   ├── simplex_method.rs  單純形法
+│   │   └── duality_theory.rs  對偶理論
+│   └── Nonlinear_Programming/  非線性規劃
+│       ├── lagrange_multipliers.rs  拉格朗日乘數
+│       └── convex_optimization.rs  凸優化
 │
-└── Topology/
-    ├── Topological_Spaces/
-    │   ├── homeomorphisms.rs
-    │   └── homotopy_theory.rs
-    ├── Surfaces_and_Manifolds/
-    │   ├── surface_classification.rs
-    │   └── manifolds.rs
-    └── Algebraic_Topology/
-        ├── fundamental_groups.rs
-        └── homology_and_cohomology.rs
+└── Topology/  拓撲學
+    ├── Topological_Spaces/  拓撲空間
+    │   ├── homeomorphisms.rs  同胚
+    │   └── homotopy_theory.rs  同倫理論
+    ├── Surfaces_and_Manifolds/  曲面與流形
+    │   ├── surface_classification.rs  曲面分類
+    │   └── manifolds.rs  流形
+    └── Algebraic_Topology/  代數拓撲
+        ├── fundamental_groups.rs  基本群
+        └── homology_and_cohomology.rs  同調與上同調
 ```
