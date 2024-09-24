@@ -1,4 +1,4 @@
-use crate::factorial::factorial;
+use crate::arithmetic_and_basic_math::factorial::factorial;
 
 pub fn combination(n: u64, r: u64) -> u64 {
     factorial(n) / (factorial(r) * factorial(n - r)) // C(n, r) = n! / (r! * (n - r)!)

@@ -1,4 +1,4 @@
-use crate::factorial::factorial;
+use crate::arithmetic_and_basic_math::factorial::factorial;
 
 pub fn permutation(n: u64, r: u64) -> u64 {
     factorial(n) / factorial(n - r) // P(n, r) = n! / (n - r)!

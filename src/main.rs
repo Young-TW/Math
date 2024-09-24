@@ -1,8 +1,8 @@
-use Math::combination::combination;
-use Math::differentiate::differentiate;
-use Math::factorial::factorial;
-use Math::permutation::permutation;
-use Math::polynomial::Polynomial;
+use Math::algebra::advanced_algebra::polynomial::Polynomial;
+use Math::arithmetic_and_basic_math::factorial::factorial;
+use Math::calculus::differentiation::differentiate::differentiate;
+use Math::discrete_mathematics::combination::combination;
+use Math::discrete_mathematics::permutation::permutation;
 
 fn main() {
     // 範例數據

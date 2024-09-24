@@ -1,5 +1,5 @@
 // 導入 Polynomial 結構體
-use crate::polynomial::Polynomial;
+use crate::algebra::advanced_algebra::polynomial::Polynomial;
 
 pub fn differentiate(poly: &Polynomial) -> Polynomial {
     let mut result_coeffs = Vec::new();
