@@ -15,7 +15,7 @@ pub fn differentiate(poly: &Polynomial) -> Polynomial {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::polynomial::Polynomial;
+    use crate::algebra::advanced_algebra::polynomial::Polynomial;
 
     #[test]
     fn test_differentiate() {
