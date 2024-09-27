@@ -5,6 +5,7 @@ pub mod algebra {
 }
 
 pub mod arithmetic_and_basic_math {
+    pub mod basic_operations;
     pub mod factorial;
 }
 
